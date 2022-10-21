@@ -1,4 +1,4 @@
-# A solution to the producer-consumer problem using synchronized methods #
+# The producer-consumer problem: A solution using synchronized methods #
 
 ## About
 This project implements a solution to the well-known [producer-consumer](https://en.wikipedia.org/wiki/Producer–consumer_problem) problem using synchronized methods. In the Java programming language, synchronized methods concretize the idea of monitors to allow for the execution of methods by concurrent threads in mutual exclusion. These threads are also condition-synchronized: they can be suspended or notified for resuming execution under certain conditions.
