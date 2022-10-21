@@ -1,6 +1,3 @@
-# producerconsumer-monitor
-Java implementation of a solution to the Producer-Consumer Problem using a monitor with synchronized methods
-
 # A solution to the producer-consumer problem using synchronized methods #
 
 ## About
