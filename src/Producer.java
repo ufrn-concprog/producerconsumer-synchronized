@@ -5,7 +5,7 @@
  */
 public class Producer extends Thread {
 	/** Reference to the shared buffer */
-	private SharedBuffer buffer;
+	private final SharedBuffer buffer;
 
 	/**
 	 * Parameterized constructor

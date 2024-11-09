@@ -10,10 +10,10 @@ import java.util.Queue;
  */
 public class SharedBuffer {
 	/** Buffer's capacity */
-	private int capacity;
+	private final int capacity;
 
 	/** Buffer (implemented as a queue to comply with the problem's constraints) */
-	private Queue<Integer> buffer;
+	private final Queue<Integer> buffer;
 
 	/**
 	 * Parameterized constructor
@@ -53,7 +53,7 @@ public class SharedBuffer {
 	 * otherwise it is notified for resuming execution.
  	 */
 	public synchronized void remove() {
-		while (buffer.size() == 0) {
+		while (buffer.isEmpty()) {
 			System.out.print("Buffer is empty. ");
 			System.out.print(Thread.currentThread().getName() + " suspended.\n");
 			try {
