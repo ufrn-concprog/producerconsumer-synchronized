@@ -17,7 +17,7 @@ This solution to the problem consists of implementing the insertion and removal 
 Source code in this repository is organized as follows:
 
 ```
-+─producerconsumer-monitor            ---> Project directory
++─producerconsumer-synchronized       ---> Project directory
   ├─── doc                            ---> Directory with HTML pages resulting from the generated Javadoc
   └─── src                            ---> Directory with source code files
        └─── Consumer.java             ---> Implementation of the consumer thread
