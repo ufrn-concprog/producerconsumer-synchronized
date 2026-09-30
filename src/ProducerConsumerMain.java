@@ -7,7 +7,7 @@
  */
 public class ProducerConsumerMain {
 	/** Capacity of the bounded buffer */
-	private static final int CAPACITY = 100;
+	private static final int CAPACITY = 2;
 
 	/** Number of producer and consumer threads */
 	private static final int NUM_THREADS = 3;
