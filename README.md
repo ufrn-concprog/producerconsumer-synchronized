@@ -1,4 +1,4 @@
-# The producer-consumer problem: A solution using synchronized methods
+# The Producer-Consumer Problem: A Solution using Java Synchronized Methods
 
 ![Java](https://img.shields.io/badge/Java-8%2B-orange?logo=openjdk)
 
